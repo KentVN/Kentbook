@@ -1,0 +1,30 @@
+footer{
+	
+}
+
+.footer{
+	padding:100px 0;
+}
+
+.footer .languages{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	padding-bottom: 4px;
+}
+.languages a, .menuFooter a{
+	font-size: 0.8em;
+	color: #385898;
+	padding-right: 8px;
+}
+
+.footer .menuFooter{
+	margin: 10px 0;
+}
+
+.footer .footerBottom{
+	font-size: 0.7em;
+	color: #888;
+}
+
+.lgActive{
+	color: #777 !important;
+}

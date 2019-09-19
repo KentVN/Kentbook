@@ -1,0 +1,103 @@
+main{
+	width: 100vw;
+	background: #edf0f5;
+}
+
+main #main{
+	display: flex;
+	padding:20px 0;
+}
+#main .mainLeft{
+	width:62%;
+	margin-top: 20px;
+}
+
+.title h1{
+	font-size: 1.4em;
+}
+#main .mainRight{
+	width: 38%;
+}
+
+.mainRight p{
+	color:#777;
+	font-size: 0.9em;
+	margin-top: 8px;
+}
+
+.mainRight #inputForm{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	margin-top:10px;
+}
+
+#inputForm .infoReg{
+	grid-column: 1/3;
+}
+.mainRight .inputReg, .submit{
+	padding-left: 10px;
+	color: #777;
+	border-radius: 4px;
+	height: 35px;
+	border: 1px solid #9999;
+	background: #fff
+}
+
+.birthDay,.userSex{
+	margin-top: 10px;
+	grid-column: 1/3;
+}
+.birthDay .BdInput, .userSex .BdInput{
+	display: grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.birthDay p, .userSex p{
+	font-size: 0.8em;
+	color:#222;
+	margin-bottom: 4px;
+}
+
+.radio{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	align-items: center;
+}
+
+.radio label, .inputReg option{
+	color: #444;
+	font-weight: inherit;
+	font-size: 0.9em;
+}
+
+form .textInfo{
+	grid-column: 1/3;
+	font-size: 0.8em;
+	color:#666;
+}
+
+.form .submit{
+	grid-column: 1/3;
+	width: 200px;
+	background-color: #00a400;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.lastInfo{
+	grid-column: 1/3;
+}
+
+.lastInfo a{
+	color: #385898;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+
+
